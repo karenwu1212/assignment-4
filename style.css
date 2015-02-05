@@ -1,0 +1,21 @@
+form {
+	margin: 30px;
+}
+form fieldset {
+	border: 2px solid;
+	margin: 0px 0px 10px 0px;
+}
+form .form-content{
+	margin: 10px 0px 10px 20px;
+	display: flex;
+}
+form .form-content input{
+	margin: 0px 0px 10px 20px;
+	border-style: solid;
+}
+form button{
+	margin: 20px 0px 0px 20px;
+}
+form button:hover{
+	background-color: yellow;
+}
