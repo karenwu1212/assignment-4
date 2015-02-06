@@ -1,14 +1,12 @@
 
 		$(document).ready(function(){
-			var btn = document.getElementById('submit');
-			btn.addEventListener('click',function(evt){
+			$('#submit').on('click', function(){
 				validation();
 			});
 
-			var phoneInput = document.getElementById('phone');
-			phoneInput.addEventListener('keyup',function(evt){
-				validatePhone1();
-			});
+			$('#phone').addEventListener('keyup',function(){
+				validationPhone1();
+			})
 
 			function validation () {
 				validateName();
